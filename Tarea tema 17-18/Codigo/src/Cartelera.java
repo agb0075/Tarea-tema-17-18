@@ -1,5 +1,5 @@
 /**
- * Clase que vincula una Película con una Sala y un Horario.
+ * Clase que vincula una película con una sala y un horario.
  */
 public class Cartelera {
     private Pelicula pelicula;
@@ -16,7 +16,7 @@ public class Cartelera {
 
     /**
      * REFACTORIZACIÓN: Se ha estandarizado la salida de texto para mejorar la
-     * legibilidad.
+     * legibilidad
      */
     public void mostrarInfoCartelera() {
         System.out.printf("%-25s | Sala: %d | Hora: %s | Nota: %.1f%n",
